@@ -6,13 +6,19 @@
 
 
 # to access a member of a sequence type, use []
-
+mylist = [1,"house", False, 3.8]
 
 # add a list to another list
 
+anotherlist = ["main"]
+
+mylist = mylist + anotherlist
 
 # use slices to get parts of a sequence
 
+print(mylist[1:4])
+
+print(mylist[-2])
 
 # you can use slices to reverse a sequence
 
