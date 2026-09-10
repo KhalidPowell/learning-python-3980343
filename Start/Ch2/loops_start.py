@@ -5,10 +5,16 @@
 x = 0
 
 # define a while loop
-
+while x < 5:
+    print(x)
+    x += 1
+    
+answer = input("Should I stop twin?")
+while answer != "yes":
+  print (answer)
+  answer = input("Should I stop now twin?")
 
 # define a for loop
-
 
 # use a for loop over a collection
 
